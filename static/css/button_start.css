@@ -1,21 +1,26 @@
 .button_start {
-    display: flex;
     position: absolute;
-    left: 39.5%;
-    height: 100px;
-    width: 300px;
-    font-size: 50px;
+    height: 700px;
+    width: 700px;
+    top: 80%;
+    left: 50%;
+    font-size: 60px;
+    padding-bottom: 500px;
     align-items: center;
-    background-color: rgba(0, 0, 255, 0.445);
-    border: 2px solid rgb(114, 114, 114);
-    border-radius: 20px;
+    justify-content: center;
+    background-color: rgba(0, 0, 255, 0.123);
+    border: 2px solid white;
+    border-radius: 100%;
     color: white; 
-    padding: 10px 20px; 
-    cursor: pointer; 
-    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px white;
+    transition: background-color 0.5s, transform 0.8s, padding-bottom 0.8s, font-size 0.8s;
+    transform: translateX(-50%);
 }
 
 .button_start:hover {
-    background-color: rgb(0, 32, 139);
-    transform: scale(2.0);
+    background-color: rgba(17, 0, 58, 0.682);
+    transform: scale(170%) translateX(-29%);
+    padding-bottom: 410px;
+    font-size: 80px;
 }

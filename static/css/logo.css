@@ -1,7 +1,13 @@
 .logo {
-    display: flex;
     position: absolute;
-    width: 200px;
-    top: 5px;
-    right: 30px;
+    width: 0px;
+    margin-top: 5%;  
+    margin-left: 85%;
+    border-radius: 10%;
+    transition: transform 0.3s;
+    transform: translateX(-50%);
+}
+
+.logo:hover {
+    transform: scale(120%) translateX(-38%);
 }

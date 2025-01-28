@@ -1,0 +1,20 @@
+.title {
+    position: absolute;
+    color: white;
+    margin-top: 5%;  
+    margin-left: 55%;
+    line-height: 5px;
+}
+
+.title1 {
+    font-size: 50px;
+}
+
+.title2 {
+    font-size: 30px;
+}
+
+.title3 {
+    
+    line-height: 100px;
+}

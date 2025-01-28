@@ -1,0 +1,28 @@
+.list {
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 7%;
+}
+
+.text {
+    color: white;
+    font-size: 30px;
+}
+
+.list ul {
+    list-style-type: disc;
+    color: white;
+    border-left: solid 2px white;
+}
+
+.list p {
+    font-size: 25px;
+    color: white;
+    text-shadow: white 1px 0 15px;
+    cursor: default;
+    transition: font-size 0.2s;
+}
+
+.list p:hover {
+    font-size: 28px;
+}
