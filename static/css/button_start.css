@@ -1,0 +1,21 @@
+.button_start {
+    display: flex;
+    position: absolute;
+    left: 39.5%;
+    height: 100px;
+    width: 300px;
+    font-size: 50px;
+    align-items: center;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button_start:hover {
+    background-color: darkblue;
+    transform: scale(2.0);
+}
