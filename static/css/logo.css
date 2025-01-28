@@ -1,5 +1,7 @@
 .logo {
     display: flex;
-    width: 400px;
-    margin-bottom: 30%;
+    position: absolute;
+    width: 200px;
+    top: 5px;
+    right: 30px;
 }
