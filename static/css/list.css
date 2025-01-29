@@ -19,10 +19,27 @@
     font-size: 25px;
     color: white;
     text-shadow: white 1px 0 15px;
-    cursor: default;
+    cursor: pointer;
     transition: font-size 0.2s;
+    text-decoration: none;
 }
 
 .list p:hover {
     font-size: 28px;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: none;
+}
+  
+a:active {
+    text-decoration: none;
 }
