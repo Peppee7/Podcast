@@ -2,24 +2,24 @@
     position: absolute;
     color: white;
     font-size: 20px;
-    transition: font-size 0.2s;
 }
 
 .textP1 {
-    margin-top: 13%;
+    margin-top: 12.5%;
     margin-left: 20%;
 }
 
 .textP2 {
-    margin-top: 13%;
+    margin-top: 12.5%;
     margin-left: 63%;
 }
 
 .textP3 {
-    margin-top: 38%;
+    margin-top: 37.5%;
     margin-left: 20%;
 }
 
-.textP:hover {
-    font-size: 21px;
+.textP4 {
+    margin-top: 37.5%;
+    margin-left: 63%;
 }

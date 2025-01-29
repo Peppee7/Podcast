@@ -3,13 +3,13 @@
     width: 165px;
     box-shadow: 0px 0px 20px white;
     border-radius: 19%;
+    background-color: rgb(227, 223, 223);
     cursor: pointer;
-    transition: transform 0.7s, background-color 0.3s;
+    transition: transform 0.7s;
 }
 
 .imgP:hover {
     transform: scale(110%);
-    background-color: white;
 }
 
 .imgP1 {
@@ -25,4 +25,9 @@
 .imgP3 {
     margin-top: 35%;
     margin-left: 7%;
+}
+
+.imgP4 {
+    margin-top: 35%;
+    margin-left: 50%;
 }
