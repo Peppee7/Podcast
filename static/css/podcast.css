@@ -1,0 +1,15 @@
+.podcast {
+    position: absolute;
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 25%;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 19%;
+    background-color: rgb(227, 223, 223);
+    transform: translateX(-50%);
+    transition: transform 0.3s;
+}
+
+.podcast:hover {
+    transform: scale(110%) translateX(-45%);
+}
