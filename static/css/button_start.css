@@ -20,7 +20,7 @@
 
 .button_start:hover {
     background-color: rgba(17, 0, 58, 0.682);
-    transform: scale(170%) translateX(-29%);
+    transform: scale(160%) translateX(-29%);
     padding-bottom: 410px;
     font-size: 80px;
 }

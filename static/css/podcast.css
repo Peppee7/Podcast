@@ -8,7 +8,21 @@
     border-radius: 19%;
     background-color: rgb(227, 223, 223);
     transform: translateX(-50%);
-    transition: transform 0.3s;
+    transition: all 0.3s;
+}
+
+.titleXL {
+    position: absolute;
+    cursor: default;
+    color: white;
+    margin-top: 9%;
+    margin-left: 40%;
+    font-size: 55px;
+    text-shadow: 0px 0px 20px white;
+}
+
+.titleXL2 {
+    margin-top: 6%;
 }
 
 .podcast:hover {

@@ -1,5 +1,47 @@
 .l {
     position: absolute;
+    margin-top: 23%;
+    border-radius: 40px;
+    width: 30px;
+    height: 30px;
+    transition: all 0.1s;
+    transform: translateY(-50%);
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px white;
+}
+
+.l1 {
+    margin-left: 41.2%;
+}
+
+.l2 {
+    margin-left: 44.2%;
+}
+
+.l3 {
+    margin-left: 47.2%;
+}
+
+.l4 {
+    margin-left: 50.2%;
+}
+
+.l5 {
+    margin-left: 53.2%;
+}
+
+.l6 {
+    margin-left: 56.2%;
+}
+
+.gif2 {
+    margin-top: 1%;
+}
+
+/*
+.l {
+    position: absolute;
     margin-top: 36%;
     border-radius: 40px;
     width: 30px;
