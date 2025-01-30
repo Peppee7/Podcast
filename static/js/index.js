@@ -1,3 +1,5 @@
+
+
 let elem = document.querySelectorAll(".imgP");
 
 let elem1 = document.querySelector(".imgP1");
@@ -27,6 +29,7 @@ audio[2] = audio3;
 for (let i = 0; i < elem.length; i++) {
     let el = elem[i];
     el.addEventListener("click", function() {
-        console.log(tit[i]);
+        //console.log(tit[i]);
     })
 }
+

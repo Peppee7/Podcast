@@ -1,0 +1,36 @@
+.l {
+    position: absolute;
+    margin-top: 36%;
+    border-radius: 40px;
+    width: 30px;
+    height: 30px;
+    transition: all 0.1s;
+    transform: translateY(-50%);
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px white;
+}
+
+.l1 {
+    margin-left: 16.2%;
+}
+
+.l2 {
+    margin-left: 19.2%;
+}
+
+.l3 {
+    margin-left: 22.2%;
+}
+
+.l4 {
+    margin-left: 25.2%;
+}
+
+.l5 {
+    margin-left: 28.2%;
+}
+
+.l6 {
+    margin-left: 31.2%;
+}
