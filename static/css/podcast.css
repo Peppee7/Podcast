@@ -25,6 +25,40 @@
     margin-top: 6%;
 }
 
+.play {
+    position: absolute;
+    cursor: pointer;
+    width: 90px;
+    margin-top: 20.2%;
+    margin-left: 62.7%;
+    transition: transform 0.3s;
+}
+
+.play2 {
+    margin-top: 21.2%;
+}
+
+.pause {
+    position: absolute;
+    cursor: pointer;
+    width: 90px;
+    margin-top: 20.2%;
+    margin-left: 69.7%;
+    transition: transform 0.3s;
+}
+
+.pause2 {
+    margin-top: 21.2%;
+}
+
 .podcast:hover {
     transform: scale(110%) translateX(-45%);
+}
+
+.play:hover {
+    transform: scale(110%);
+}
+
+.pause:hover {
+    transform: scale(110%);
 }

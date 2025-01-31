@@ -14,16 +14,6 @@ let tit2 = document.querySelector(".titleP2");
 let tit3 = document.querySelector(".titleP3");
 let tit4 = document.querySelector(".titleP4");
 
-/*
-let audio1 = new Audio([ url ]);
-let audio2 = new Audio([ url ]);
-let audio3 = new Audio([ url ]);
-
-audio = new Array();
-audio[0] = audio1;
-audio[1] = audio2;
-audio[2] = audio3;
-*/
 
 
 for (let i = 0; i < elem.length; i++) {
