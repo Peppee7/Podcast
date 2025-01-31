@@ -51,6 +51,15 @@
     margin-top: 21.2%;
 }
 
+.time {
+    position: absolute;
+    cursor: default;
+    color: white;
+    font-size: 40px;
+    margin-top: 32%;
+    margin-left: 23%;
+}
+
 .podcast:hover {
     transform: scale(110%) translateX(-45%);
 }
