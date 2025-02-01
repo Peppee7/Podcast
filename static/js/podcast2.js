@@ -8,10 +8,12 @@ let a6 = document.querySelector(".l6");
 let pod2 = document.querySelector(".podcast2");
 let start2 = document.querySelector(".play2");
 let pause2 = document.querySelector(".pause2");
+let t2 = document.querySelector(".time2");
+t2.innerHTML = "0.00";
 
 let sound2 = new Audio("audio1.mp3");
-let timeStart2 = 1;
-let timeEnd2 = 1;
+let timeStart2 = Math.round((sound2.currentTime + Number.EPSILON)) / 100;
+let timeEnd2 = Math.round(((sound2.currentTime - sound2.duration) + Number.EPSILON)) / 100;
 
 let intv2;
 let n;
@@ -21,6 +23,8 @@ function getRandom(min, max) {
 }
 
 function stile() {
+    timeStart2 = Math.round((sound2.currentTime + Number.EPSILON)) / 100;
+    t2.innerHTML = timeStart2;
     pod2.style.boxShadow = '0px 0px ' + getRandom(5, 45) + 'px white';
     a1.style.height = getRandom(30, 110) + 'px';
     a2.style.height = getRandom(30, 110) + 'px';
@@ -32,7 +36,6 @@ function stile() {
 
 start2.addEventListener("click", function() {
     sound2.play();
-
     intv2 = setInterval(stile, 100);
 
     function time() {
